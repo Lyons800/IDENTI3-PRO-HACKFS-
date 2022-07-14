@@ -33,7 +33,7 @@ import ServerError from "pages/examples/ServerError";
 
 import Profile from "pages/Profile";
 import Accounts from "pages/Accounts";
-import ConnectedApps from 'pages/ConnectedApps';
+import ConnectedApps from 'pages/ConnectedOAuthApps';
 
 // documentation pages
 import DocsOverview from "pages/documentation/DocsOverview";

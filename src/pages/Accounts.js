@@ -34,7 +34,7 @@ export default () => {
             <Button variant="outline-gray-600" className="d-inline-flex align-items-center" onClick={goToTablesDocs}>
               <QuestionMarkCircleIcon className="icon icon-xs me-1" /> Bootstrap Tables Docs
             </Button>
-          </div>
+          </div>       
         </div>
       </div>
 
