@@ -8,19 +8,19 @@ import Code from "components/CodeEditor";
 import GitHubButton from 'react-github-btn';
 
 import { Routes } from "routes";
-import ThemesbergLogoIcon from "assets/img/themesberg.svg";
-import ThemesbergLogo from "assets/img/themesberg-logo.svg";
-import MockupPresentation from "assets/img/mockup-presentation.png";
-import ReactHero from "assets/img/technologies/react-hero-logo.svg";
-import MapboxImg from "assets/img/mockup-map-presentation.png";
-import CalendarImg from "assets/img/mockup-calendar-presentation.png";
-import KanbanImg from "assets/img/mockup-kanban-presentation.png";
-import ReactMockupImg from "assets/img/react-mockup.png";
-import BS5IllustrationsImg from "assets/img/illustrations/bs5-illustrations.svg";
-import BS5Logo from "assets/img/technologies/bootstrap-5-logo.svg";
-import ReactLogo from "assets/img/technologies/react-logo.svg";
+// import ThemesbergLogoIcon from "/assets/img/themesberg.svg";
+// import ThemesbergLogo from "/assets/img/themesberg-logo.svg";
+// import MockupPresentation from "/assets/img/mockup-presentation.png";
+// import ReactHero from "/assets/img/technologies/react-hero-logo.svg";
+// import MapboxImg from "/assets/img/mockup-map-presentation.png";
+// import CalendarImg from "/assets/img/mockup-calendar-presentation.png";
+// import KanbanImg from "/assets/img/mockup-kanban-presentation.png";
+// import ReactMockupImg from "/assets/img/react-mockup.png";
+// import BS5IllustrationsImg from "src/assets/img/illustrations/bs5-illustrations.svg";
+// import BS5Logo from "src/assets/img/technologies/bootstrap-5-logo.svg";
+// import ReactLogo from "/assets/img/technologies/react-logo.svg";
 
-import pages from "data/pages";
+// import pages from "data/pages";
 import features from "data/features";
 import { BootstrapIcon, FileCodeIcon, GithubIcon, JsIcon, ReactIcon } from "components/BrandIcons";
 
@@ -79,7 +79,7 @@ export default () => {
       <Navbar variant="dark" expand="lg" bg="dark" className="navbar-transparent navbar-theme-primary sticky-top">
         <Container className="position-relative justify-content-between px-3">
           <Navbar.Brand as={HashLink} to="#home" className="me-lg-3 d-flex align-items-center">
-            <Image src={ReactHero} />
+            {/* <Image src={ReactHero} /> */}
             <span className="ms-2 brand-text d-none d-md-inline">IDENTI3 Pro</span>
           </Navbar.Brand>
 
@@ -117,7 +117,7 @@ export default () => {
               </div>
               <div className="text-center mb-6 mb-lg-5">
                 <a href="https://themesberg.com" target="_blank" rel="noopener noreferrer">
-                  <Image src={ThemesbergLogoIcon} height={25} width={25} className="mb-3" alt="Themesberg Logo" />
+                  {/* <Image src={ThemesbergLogoIcon} height={25} width={25} className="mb-3" alt="Themesberg Logo" /> */}
                   <p className="text-muted font-small m-0">A Themesberg production</p>
                 </a>
               </div>
@@ -134,7 +134,7 @@ export default () => {
         <Container className="mt-n10 mt-lg-n12 z-2">
           <Row className="justify-content-center">
             <Col xs={12}>
-              <Image src={MockupPresentation} alt="Mockup presentation" />
+              {/* <Image src={MockupPresentation} alt="Mockup presentation" /> */}
             </Col>
           </Row>
           <Row className="justify-content-center mt-5 mt-lg-6">
@@ -185,7 +185,7 @@ export default () => {
               </Button>
             </Col>
             <Col lg={6}>
-              <Image src={KanbanImg} alt="Calendar Preview" />
+              {/* <Image src={KanbanImg} alt="Calendar Preview" /> */}
             </Col>
           </Row>
           <Row className="justify-content-between align-items-center mb-5 mb-lg-7">
@@ -201,7 +201,7 @@ export default () => {
               </Button>
             </Col>
             <Col lg={6} className="order-lg-1">
-              <Image src={ReactMockupImg} alt="Calendar Preview" />
+              {/* <Image src={ReactMockupImg} alt="Calendar Preview" /> */}
             </Col>
           </Row>
           <Row className="justify-content-between align-items-center mb-5 mb-lg-7">
@@ -242,7 +242,7 @@ export default () => {
               </Button>
             </Col>
             <Col lg={6} className="order-lg-1">
-              <Image src={MapboxImg} alt="MapBox Leaflet.js Custom Integration Mockup" />
+              {/* <Image src={MapboxImg} alt="MapBox Leaflet.js Custom Integration Mockup" /> */}
             </Col>
           </Row>
           <Row className="justify-content-between align-items-center mb-5 mb-lg-7">
@@ -262,7 +262,7 @@ export default () => {
               </Button>
             </Col>
             <Col lg={6}>
-              <Image src={CalendarImg} alt="Calendar Preview" />
+              {/* <Image src={CalendarImg} alt="Calendar Preview" /> */}
             </Col>
           </Row>
           <Row className="justify-content-between align-items-center">
@@ -276,7 +276,7 @@ export default () => {
               </p>
             </Col>
             <Col lg={6} className="col-lg-6 order-lg-1">
-              <Image src={BS5IllustrationsImg} alt="Front pages overview" />
+              {/* <Image src={BS5IllustrationsImg} alt="Front pages overview" /> */}
             </Col>
           </Row>
         </Container>
@@ -294,7 +294,7 @@ export default () => {
             </Col>
           </Row>
           <Row className="mb-5">
-            {pages.map(page => <PagePreview key={`page-${page.id}`} {...page} />)}
+            {/* {pages.map(page => <PagePreview key={`page-${page.id}`} {...page} />)} */}
           </Row>
         </Container>
       </section>
@@ -657,7 +657,7 @@ export default () => {
                         Bootstrap 5 · The most popular HTML, CSS, and JS library in the world.
                       </Tooltip>
                     }>
-                    <Image src={BS5Logo} className="image image-sm" />
+                    {/* <Image src={BS5Logo} className="image image-sm" /> */}
                   </OverlayTrigger>
                 </Card.Link>
 
@@ -669,7 +669,7 @@ export default () => {
                         React · A JavaScript library for building user interfaces.
                       </Tooltip>
                     }>
-                    <Image src={ReactLogo} className="image image-sm" />
+                    {/* <Image src={ReactLogo} className="image image-sm" /> */}
                   </OverlayTrigger>
                 </Card.Link>
 
@@ -772,7 +772,7 @@ export default () => {
           <Row>
             <Col md={4}>
               <Navbar.Brand as={HashLink} to="#root" className="me-lg-3 mb-3 d-flex align-items-center">
-                <Image src={ReactHero} />
+                {/* <Image src={ReactHero} /> */}
                 <span className="ms-2 brand-text">Volt React Pro</span>
               </Navbar.Brand>
               <p>Volt Pro React is a premium admin dashboard template powered by React.js and Bootstrap 5</p>
@@ -817,7 +817,7 @@ export default () => {
           <Row>
             <Col className="mb-md-2">
               <Card.Link href="https://themesberg.com" target="_blank" className="d-flex justify-content-center">
-                <Image src={ThemesbergLogo} height={35} className="d-block mx-auto mb-3" alt="Themesberg Logo" />
+                {/* <Image src={ThemesbergLogo} height={35} className="d-block mx-auto mb-3" alt="Themesberg Logo" /> */}
               </Card.Link>
               <div className="d-flex text-center justify-content-center align-items-center" role="contentinfo">
                 <p className="font-weight-normal font-small mb-0">Copyright © Themesberg 2019-<span className="current-year">{currentYear}</span>. All rights reserved.</p>

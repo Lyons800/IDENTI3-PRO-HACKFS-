@@ -8,15 +8,10 @@ import Presentation from "pages/Presentation";
 import DashboardOverview from "pages/dashboard/DashboardOverview";
 import DashboardTraffic from "pages/dashboard/DashboardTraffic";
 import DashboardProductAnalysis from "pages/dashboard/DashboardProductAnalysis";
-import Kanban from 'pages/Kanban';
 import Messages from "pages/Messages";
 import SingleMessage from "pages/SingleMessage";
 import Users from "pages/Users";
-import Transactions from "pages/Transactions";
-import Tasks from "pages/Tasks";
 import Settings from "pages/Settings";
-import Calendar from "pages/Calendar";
-import MapPage from "pages/Map";
 import Datatables from "pages/tables/Datatables";
 import BootstrapTables from "pages/tables/BootstrapTables";
 import Pricing from "pages/examples/Pricing";
@@ -46,9 +41,7 @@ import DocsChangelog from "pages/documentation/DocsChangelog";
 
 // plugin pages
 import PluginCharts from "pages/plugins/Charts";
-import PluginCalendar from "pages/plugins/Calendar";
 import PluginDatatable from "pages/plugins/Datatable";
-import PluginMap from "pages/plugins/Map";
 import PluginDropzone from "pages/plugins/Dropzone";
 import PluginSweetAlert from "pages/plugins/SweetAlert";
 
@@ -153,15 +146,10 @@ export default () => (
     <RouteWithSidebar exact path={Routes.DashboardOverview.path} component={DashboardOverview} />
     <RouteWithSidebar exact path={Routes.DashboardTraffic.path} component={DashboardTraffic} />
     <RouteWithSidebar exact path={Routes.DashboardProductAnalysis.path} component={DashboardProductAnalysis} />
-    <RouteWithSidebar exact path={Routes.Kanban.path} component={Kanban} />
     <RouteWithSidebar exact path={Routes.Messages.path} component={Messages} />
     <RouteWithSidebar exact path={Routes.SingleMessage.path} component={SingleMessage} />
     <RouteWithSidebar exact path={Routes.Users.path} component={Users} />
-    <RouteWithSidebar exact path={Routes.Transactions.path} component={Transactions} />
-    <RouteWithSidebar exact path={Routes.Tasks.path} component={Tasks} />
     <RouteWithSidebar exact path={Routes.Settings.path} component={Settings} />
-    <RouteWithSidebar exact path={Routes.Calendar.path} component={Calendar} />
-    <RouteWithSidebar exact path={Routes.Map.path} component={MapPage} />
     <RouteWithSidebar exact path={Routes.Datatables.path} component={Datatables} />
     <RouteWithSidebar exact path={Routes.BootstrapTables.path} component={BootstrapTables} />
     <RouteWithSidebar exact path={Routes.Pricing.path} component={Pricing} />
@@ -203,9 +191,7 @@ export default () => (
 
     {/* plugins */}
     <RouteWithSidebar exact path={Routes.PluginCharts.path} component={PluginCharts} />
-    <RouteWithSidebar exact path={Routes.PluginCalendar.path} component={PluginCalendar} />
     <RouteWithSidebar exact path={Routes.PluginDatatable.path} component={PluginDatatable} />
-    <RouteWithSidebar exact path={Routes.PluginMap.path} component={PluginMap} />
     <RouteWithSidebar exact path={Routes.PluginDropzone.path} component={PluginDropzone} />
     <RouteWithSidebar exact path={Routes.PluginSweetAlert.path} component={PluginSweetAlert} />
 
